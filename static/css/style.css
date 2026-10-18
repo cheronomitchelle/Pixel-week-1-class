@@ -1,0 +1,148 @@
+h2{
+    color: aqua;
+    font: size 24px;
+    text-align: center;
+} 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(95, 248, 95);
+}
+li{
+    float: left;
+
+}
+li a{
+    display: block;
+    text-align: centre;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: black;
+
+}
+
+
+
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+td, th{
+    border: 1px solid 
+    #ea2020;
+    padding: 8px;
+}
+tr :nth-child(even){
+    background: color f 2f 2f 2px;
+
+}
+
+
+.fruits{
+    background-color: lightgreen;
+    border: 2px solid green ;
+    color: rgb(252, 40, 40);
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.cars{
+     background-color: lightblue;
+    border: 2px solid blue
+     ;
+    color: rgb(252, 40, 40);
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.Fruits{
+     background-color: brown(247, 4, 4);
+    border: 2px solid red ;
+    color: rgb(252, 40, 40);
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+#computer{
+     background-color: yellow;
+    border: 2px solid rgb(89, 247, 89) ;
+    color: rgb(252, 40, 40);
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+    flex-wrap: wrap ;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    margin: 0;
+    padding: 30px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.card h2{
+    color: blue;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card p{
+    color: black;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: black;
+
+}
+header{
+    background-color: blue;
+
+}
+.navbar{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    gap: 15px;
+}
+.logo{
+    color: lightskyblue;
+    font-size: 28px;
+    font-weight: bold;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
